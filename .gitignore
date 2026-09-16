@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Never commit keys.
+.env
+.env.*
+!.env.example
+*.key
+
+# Sweep/bench artifacts
+runs/
+*.sweep.json
